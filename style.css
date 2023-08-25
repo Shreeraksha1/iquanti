@@ -181,14 +181,13 @@ a {
   }
 
   .tab-bottom {
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
     top: 0;
     height: auto;
-    padding: 1rem 11vw;
+    padding: 1rem 15vw;
   }
 
   .left-div {
@@ -202,9 +201,21 @@ a {
     max-width: 50%;
     min-width: auto;
   }
-
+.watch-now {
+  margin: 0.5rem auto;
+}
   .main {
-    width: 60%;
+    width: 65%;
     padding: 5rem 2rem;
+  }
+  .center-div {
+    max-width: 80%;
+  }
+  .user-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 15rem;
+    min-width: 11rem;
   }
 }
