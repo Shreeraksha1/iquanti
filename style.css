@@ -80,6 +80,7 @@ a {
 }
 
 .tab-bottom {
+  border-top: 0.1rem solid #FF8000;
   height: 8rem;
   position: relative;
   top: -4rem;
@@ -92,13 +93,39 @@ a {
   box-shadow: 0px -3px 15px #0000004D;
 }
 
+.left-colors {
+  position: relative;
+  left: 11rem;
+  top: -4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 10rem;
+}
+
+.color-divs {
+  width: 33.33%;
+  height: 0.5rem;
+}
+
+.red {
+  background: #CA3726;
+}
+
+.light-red {
+  background-color: #FF5800;
+}
+
+.orange {
+  background-color: #FF8000;
+}
+
 .left-div {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 8rem;
-  width: 100%;
+  width: 8rem;
   padding: 1rem;
   background: #111111 0% 0% no-repeat padding-box;
 }
@@ -176,7 +203,8 @@ a {
 
   }
 
-  .nav-opt, .spiral-arrow {
+  .nav-opt,
+  .spiral-arrow {
     display: none;
   }
 
@@ -190,7 +218,7 @@ a {
     padding: 1rem 15vw;
   }
 
-  .left-div {
+  .left-div, .left-colors {
     display: none;
   }
 
@@ -200,22 +228,20 @@ a {
     margin: 0.5rem;
     max-width: 50%;
     min-width: auto;
+    width: 65%;
   }
-.watch-now {
-  margin: 0.5rem auto;
-}
   .main {
     width: 65%;
     padding: 5rem 2rem;
   }
+
   .center-div {
     max-width: 80%;
   }
+
   .user-div {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 15rem;
-    min-width: 11rem;
   }
 }
